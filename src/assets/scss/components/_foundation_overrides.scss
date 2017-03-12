@@ -1,0 +1,12 @@
+a {
+	color: $benger_blue;
+	&:hover, &:focus {
+		color: $benger_blue_opac;
+	}
+}
+.button {
+	background: $benger_blue;
+	&:hover, &:focus {
+			background: $benger_blue_opac;
+	}
+}

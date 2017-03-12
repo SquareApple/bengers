@@ -1,0 +1,158 @@
+html {
+overflow-x: hidden;
+}
+	p {
+	font-size: 20px;
+}
+
+header#header {
+    background: $benger_blue;
+    color: #FFFFFF;
+    .row {
+    	.columns {
+		    .top-bar {
+		    background-color: transparent;
+				ul {
+					background-color: transparent;
+					li {
+						a {
+						color: #FFFFFF;
+						padding: 0;
+						margin-right: 1rem;
+    					padding-bottom: 0.5rem;
+    					font-size: 20px;
+						}
+						a.is-active {
+						    border-bottom: 2px solid #7488a5;
+						}
+						a.contact-number {
+						    font-weight: bold;
+						}
+					}
+				}
+		    	.top-bar-left {
+					ul {
+
+					}
+				}
+				.top-bar-right {
+					ul {
+
+					}
+				}
+			}
+			.sub-nav {
+				ul {
+					li {
+    					border-right: solid 1px rgba(255, 255, 255, 0.3);
+						a {
+							color: #FFFFFF;
+							font-size: 20px;
+							font-family: $header-font-family;
+							padding-left: 25px;
+						    padding-right: 25px;
+						    padding-bottom: 0.7rem;
+						    padding-top: 0.7rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#slider-area {
+	.row {
+		.home-slider {
+			    margin-bottom: 2rem;
+			.the-slides {
+				    min-height: 400px;
+				    background-size: cover;
+				    background-position: center;
+				    height: 50vh;
+				    width: 100%;
+				    position: relative;
+				    background-repeat: no-repeat;
+				    .row {
+						aside {
+							width: 50%;
+							min-width: 300px;
+							position: absolute;
+							top: 50%;
+		  					transform: translateY(-50%);
+							padding: 1rem;
+							background: $benger_blue_opac;
+							color: #FFFFFF;
+							margin-left: 0.625rem;
+							h3 {
+							font-size: 40px;
+							}
+						}
+					}
+			}
+		}
+	}
+}
+#block-grids {
+	color: #FFFFFF;
+	.row {
+		.columns {
+			margin-bottom: 2rem;
+			aside {
+				background: $benger_blue;
+				padding: 1rem;
+				a {
+					color: #FFFFFF;
+					font-weight: 600;
+					font-size: 20px;
+				}
+				h4 {
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}
+#dual-sides {
+	.row {
+		.columns {
+			header {
+				h4 {
+					color: $benger_blue;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}
+#footer {
+	.footer-content {
+		background-image: url("../img/footer_background.png");
+		background-position: center bottom;
+		height: 400px;
+		position: relative;
+		background-repeat: no-repeat;
+    	background-size: cover;
+		.footer-menu {
+			position: absolute;
+			bottom: 0;
+			ul {
+				li {
+					a {
+						color: #FFFFFF;
+						font-weight: 600;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+	.copy-area {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		p {
+			margin-bottom: 0;
+			font-size: 16px;
+		}
+	}
+}
